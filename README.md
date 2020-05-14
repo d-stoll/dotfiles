@@ -21,5 +21,5 @@ git clone --recurse-submodules git@github.com:d-stoll/dotfiles.git ~/.dotfiles
 Update symlinks with rcm:
 
 ```zsh
-rcup -v
+RCRC=$HOME/.dotfiles/rcrc rcup
 ```
