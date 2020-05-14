@@ -18,8 +18,8 @@ Clone this repo into  ~/.dotfiles:
 git clone --recurse-submodules git@github.com:d-stoll/dotfiles.git ~/.dotfiles 
 ```
 
-Update symlinks with rcm:
+Setup symlinks and other things:
 
 ```zsh
-RCRC=$HOME/.dotfiles/rcrc rcup
+bash ~/.dotfiles/bin/setup.sh
 ```

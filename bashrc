@@ -17,3 +17,7 @@ export PATH
 
 # User specific aliases and functions
 
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="/home/dstoll/.sdkman"
+[[ -s "/home/dstoll/.sdkman/bin/sdkman-init.sh" ]] && source "/home/dstoll/.sdkman/bin/sdkman-init.sh"
