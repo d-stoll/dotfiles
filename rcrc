@@ -1,2 +1,3 @@
-EXCLUDES=README.md
+COPY_ALWAYS="oh-my-zsh/*"
+EXCLUDES="README.md bin rcrc"
 
