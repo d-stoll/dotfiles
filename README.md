@@ -15,7 +15,7 @@ sudo dnf install rcm
 Clone this repo into  ~/.dotfiles:
 
 ```zsh
-git clone git@github.com:d-stoll/dotfiles.git ~/.dotfiles 
+git clone --recurse-submodules git@github.com:d-stoll/dotfiles.git ~/.dotfiles 
 ```
 
 Update symlinks with rcm:
