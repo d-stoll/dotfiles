@@ -19,9 +19,6 @@ rm ~/.bash_history
 rm ~/.bash_profile
 rm ~/.bash_logout
 
-# Install sdkman
-curl -s "https://get.sdkman.io" | zsh
-
 # Create symlinks in home directory
 export RCRC=$HOME/.dotfiles/rcrc
 rcdn
